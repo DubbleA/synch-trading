@@ -24,9 +24,9 @@ def get_orders():
     r = requests.get(ORDERS_URL, headers=HEADERS)
     return json.loads(r.content)
 
+#Broken returns empty array
+
 
 response = create_order("AAPL", 100, "buy", "market", "gtc")
 response = create_order("MSFT", 1000, "buy", "market", "gtc")
 
-orders = get_orders()
-print(orders)
