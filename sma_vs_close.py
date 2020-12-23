@@ -28,7 +28,7 @@ total_df = pd.concat([df1,df2], axis=1)
 print(total_df)
 
 total_df.plot()
-plt.show()d
+plt.show()
 
 
 
