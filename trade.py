@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, time
 from config import *
 HEADERS = {'APCA-API-KEY-ID': API_KEY, 'APCA-API-SECRET-KEY': SECRET_KEY}
 BASE_URL = "https://paper-api.alpaca.markets"
